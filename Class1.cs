@@ -18,4 +18,12 @@ namespace OMS.Models
         public string email { get; set; }
         public string password { get; set; }
     }
+    public class Admin
+    {
+        [Key]
+        public int admin_id { get; set; }
+        public string  aname { get; set; }        
+        public string email { get; set; }
+        public string password { get; set; }
+    }
 }
